@@ -1,0 +1,3 @@
+python pipeline.py config.txt &
+PID=$!
+./memtrack_cont.sh $PID memory_log.csv &
